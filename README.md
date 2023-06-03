@@ -8,10 +8,12 @@ MNIST是一个经典的手写数字数据集，包含了大量的手写数字图
 
 卷积神经网络（CNN）是一种广泛应用于图像识别和计算机视觉任务的深度学习模型。它由多个卷积层、池化层和全连接层组成，能够有效地提取图像特征并进行分类。
 
-# 安装和配置Intel® oneAPI Base Toolkit和Intel® Distribution for Python
+# 安装和配置Intel® oneAPI Base Toolkit和Intel® Distribution for Python 或使用 Dev Cloud
 首先，我们需要安装和配置Intel® oneAPI Base Toolkit。你可以从Intel官方网站下载安装程序，并按照指南进行安装。安装完成后，你需要配置开发环境，将必要的依赖项添加到系统路径中，并设置环境变量。
 
 接下来，我们需要安装Intel® Distribution for Python，这是一种针对科学计算和机器学习任务优化的Python发行版。你可以从Intel官方网站下载安装程序，并按照指南进行安装。安装完成后，你可以使用专门针对英特尔架构优化的Python包来加速代码运行。
+
+开发人员可在Intel DevCloud平台（https://devcloud.intel.com/oneapi/home/）免安装本地环境即可进行代码的开发和测试。
 
 # 导入库和模块
 在开始编写代码之前，我们需要导入所需的库和模块。这包括torch、torch.nn、torch.utils.data、torchvision等用于构建和训练CNN模型的核心库。此外，我们还需要导入一些辅助库，如numpy和time，用于数据处理和性能测量。
