@@ -125,6 +125,9 @@ Epoch: 0 | train loss:0.0927 | test accuracy:0.9820
 [7 2 1 0 4 1 4 9 5 9] 预测数字
 [7 2 1 0 4 1 4 9 5 9] 真实数字
 ```
+![image](https://github.com/Faran-sward/-oneAPI-/assets/99521376/6d85fdc3-9133-40ba-a540-ae0c90cde91e)
+
+
 通过这个例子，我们展示了如何使用Intel® oneAPI Base Toolkit中的工具和库构建并训练卷积神经网络模型。通过利用oneAPI的优势，我们可以轻松地优化和部署模型，以获得最佳的性能和效率。
 
 # 总结
